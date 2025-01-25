@@ -1,16 +1,38 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faebd7;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.title {
     font-weight: bold;
     font-size: 35px;
     color: black;
+    text-align: center;
 }
 
-ul {
-    font-size: 20px;
-    list-style-position: inside;
-    align-items: baseline;
+.recipe_cards {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.recipe {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f5efe6;
+    text-align: center;
 }
